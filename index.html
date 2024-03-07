@@ -36,7 +36,7 @@
     <header class="container mx-auto my-16">
         <!-- Nav section -->
         <nav>
-            <div class="navbar bg-[#F85559] rounded-[600px] py-8 px-12">
+            <div class="navbar bg-[#F85559] rounded-[600px] py-8 pl-0 pr-12 lg:px-12">
                 <div class="navbar-start">
                     <div class="dropdown">
                         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -64,14 +64,14 @@
                     </div>
 
                 </div>
-                <div class="w-auto gap-2">
+                <div class="w-auto gap-2 ">
                     <img src="./images/logo.png" alt="">
                     <div class="flex gap-3">
                         <h2 class="text-white font-lato text-4xl font-bold ">Fruit</h2>
                         <h2 class="text-white font-lato text-4xl font-bold ">Burst</h2>
                     </div>
                 </div>
-                <div class="navbar-end ">
+                <div class="navbar-end hidden md:flex lg:flex">
                     <div class="flex rounded-[50px] bg-white py-5 px-7">
                         <input class="rounded-[50px]" type="search" placeholder="Search here">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -163,7 +163,8 @@
                 </div>
             </div>
             <!-- fruit column -->
-            <div class=" flex bg-white rounded-lg w-[1196px] h-[250px] absolute left-[150px] top-[800px] shadow-2xl">
+            <div
+                class="hidden md:flex lg:flex bg-white rounded-lg w-[1196px] h-[250px] absolute left-[150px] top-[800px] shadow-2xl">
                 <!-- card 1 -->
                 <div class="card">
                     <figure class="px-10 pt-10">
